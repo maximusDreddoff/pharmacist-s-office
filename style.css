@@ -1,0 +1,25 @@
+@font-face {
+    font-family: text;
+    src: local("textfont"),
+    url(fonts/text.ttf)
+}
+.jumbotron {
+    text-align: center;
+    font-family: text;
+}
+.hidden-container {
+    text-align: left;
+    font-size: 8pt;
+    font-family: "Helvetica Neue", sans-serif;
+}
+.icon {
+    top:3px;
+}
+#customersHeading {
+    font-size: 15pt;
+    font-family: text;
+    text-transform: uppercase;
+}
+#clearLocalStorage{
+    float: right;
+}
